@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+body {
+    font-family: 'Itim', cursive;
+    margin: 0;
+    background-color: #473a58;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-check {
+    display: block;
+   text-align: center;
+    padding: 1rem;
+}
+
+#birth-date {
+    padding: 1rem;
+    margin: 1.5rem;
+    border: solid 3px rgb(230, 226, 36);
+}
+
+#check-button {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: solid 2px rgb(55, 58, 243);
+    background-color: rgb(240, 194, 110);
+    border-radius: 2rem;
+    padding: 0.7rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    cursor: pointer;
+}
+
+#check-button:hover {
+    background-color: rgb(182, 255, 122);
+}
+
+#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12%;
+    height: 12%;
+}
+
+#output {
+    text-align: center;
+    font-size: larger;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 400px) {
+    #img {
+        width: 40%;
+    }
+    #output {
+        margin: 1rem;
+    }
+}
+
+.footer {
+    background-color: rgb(91, 113, 160);
+    padding:2rem 0rem;
+    text-align: center;
+    margin-top: 21.2%;
+    color:white;
+    border-top-right-radius: 1rem;
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+   
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
