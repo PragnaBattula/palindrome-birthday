@@ -6,4 +6,4 @@ This app made with vanilla.js to check whether your birthday is a palindrome num
 
 If your birthday is not a palindrome number then it will show the nearest palindrome date and the number of days you missed it with.
 
-Link to the app -->
+Link to the app --> https://palindromicday.netlify.app/
