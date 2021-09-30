@@ -9,6 +9,9 @@ body {
 h1 {
     text-align: center;
 }
+.container{
+    margin: 4rem auto 20rem;
+}
 
 .input-check {
     display: block;
@@ -35,7 +38,7 @@ h1 {
 }
 
 #check-button:hover {
-    background-color: rgb(182, 255, 122);
+    background-color: rgb(128, 219, 228);
 }
 
 #img {
@@ -62,36 +65,7 @@ h1 {
     }
 }
 
-.footer {
-    background-color: rgb(91, 113, 160);
-    padding:2rem 0rem;
-    text-align: center;
-    margin-top: 21.2%;
-    color:white;
-    border-top-right-radius: 1rem;
-}
+.footer{
+    text-align:center;
 
-.link {
-    box-sizing: border-box;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-   
-}
-
-.list-item-inline {
-    display: inline;
-    padding: 0rem 0.5rem;
-}
-
-.footer .link {
-    color: white;
-}
-
-.footer .footer-header {
-    font-weight: bold;
-    font-size: large;
-}
-
-.footer ul {
-    padding-inline-start: 0px;
 }
